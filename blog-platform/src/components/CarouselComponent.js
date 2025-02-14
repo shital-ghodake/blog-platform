@@ -11,13 +11,13 @@ export const category = [
     id: 1,
     category: "Life",
     title: "Stay Calm And Surf",
-    cover: "../images/category/category1.jpg",
+    cover: `${process.env.PUBLIC_URL}/images/category/category1.jpg`,
   },
   {
     id: 2,
     category: "Fashion",
     title: "Becoming a Dragonfly",
-    cover: "../images/category/category2.jpeg",
+    cover: "/blog-platform/images/category/category2.jpeg",
   },
   {
     id: 3,
